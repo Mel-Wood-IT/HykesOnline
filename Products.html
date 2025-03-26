@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--CSS Links-->
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>HYKES ONLINE - PRODUCTS</title>
+	<link rel="stylesheet" href="cssfolder/style.css">
+	<link rel="stylesheet" href="cssfolder/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!---Navigation Menu-->
+	<section class="header-product">
+		<nav>
+			<a href="index.html"><img src="Images/HYKE.png"></a>
+			<div class="nav-links" id="navLinks">
+				<!--Close icon for media-->
+				<i class="fa fa-times" style="color: black" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html" title="Homepage">HOME</a></li>
+					<li><a href="About.html" title="About">ABOUT</a></li>
+					<li><a href="Gallery.html" title="Virtual Walks">VIRTUAL WALKS</a></li>
+					<li><a href="Products.html" title="Products">PRODUCTS</a></li>
+				</ul>
+			</div>
+			<!--Menu icon for media-->
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Hykes Online</h1>
+			<h2>Products</h2>
+		</div>
+	</section>
+	<!---Main content in here--->
+	<section class="main_content">
+		<h2>Walking and hiking gear</h2>
+		<p>When hiking and walking it is important to have the correct gear to keep you safe.</p>
+		<div class="row">
+			<div class="two-col">
+				<h3></h3>
+				<p></p>
+			</div>
+			<div class="two-col">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="two-col">
+				<h3></h3>
+				<p></p>
+			</div>
+			<div class="two-col">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--Footer-->
+	<div class=footer-row>
+		<p>Special thanks to our sponsors! <br>
+		Copyright&#169; 2023 Hykes Online. All rights reserved.</p>
+	</div>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-220px";
+		}
+	</script>
+</body>
+</html>

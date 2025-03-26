@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--CSS Links-->
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>HYKES ONLINE</title>
+	<link rel="stylesheet" href="cssfolder/style.css">
+	<link rel="stylesheet" href="cssfolder/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!---Navigation Menu-->
+	<section class="header-home">
+		<nav>
+			<a href="index.html"><img src="Images/HYKE.png"></a>
+			<div class="nav-links" id="navLinks">
+				<!--Close icon for media-->
+				<i class="fa fa-times" style="color: black" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html" title="Homepage">HOME</a></li>
+					<li><a href="About.html" title="About">ABOUT</a></li>
+					<li><a href="Gallery.html" title="Videos">VIRTUAL WALKS</a></li>
+					<li><a href="Products.html" title="Products">PRODUCTS</a></li>
+				</ul>
+			</div>
+			<!--Menu icon for media-->
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Hykes Online</h1>
+			<p>Our mission is to provide a place where hiking enthusiasts 
+			can come together to experience<br> stunning walking and hiking trails
+			from around the world in a virtual environment.
+			</p>
+		</div>
+	</section>
+	<!---Main content in here--->
+	<section class="main_content">
+		<h2>Welcome to Hykes Online!</h2>
+		<p>Home to beautiful virtual walk videos from Aotearoa New Zealand. We want to motivate people to get active and support local attractions such as doc lands, river walks, and the Hamilton gardens. 
+		New Zealand is a Beautiful place with so much to see and explore and we want to include you in this adventure.</p>
+	<div class="container">
+
+		<div class="mySlides">
+			<div class="numbertext">1 / 12</div>
+			<img src="Images/gallery1.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">2 / 12</div>
+			<img src="Images/gallery2.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">3 / 12</div>
+			<img src="Images/gallery3.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">4 / 12</div>
+			<img src="Images/gallery4.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">5 / 12</div>
+			<img src="Images/gallery5.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">6 / 12</div>
+			<img src="Images/gallery6.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">7 / 12</div>
+			<img src="Images/gallery7.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">8 / 12</div>
+			<img src="Images/gallery8.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">9 / 12</div>
+			<img src="Images/gallery9.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">10 / 12</div>
+			<img src="Images/gallery10.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">11 / 12</div>
+			<img src="Images/gallery11.jpg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">12 / 12</div>
+			<img src="Images/gallery12.jpg" style="width:100%">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+
+		<div class="rowslideshow">
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery1.jpg" style="width:100%" onclick="currentSlide(1)" alt="NZ walk">
+			</div>
+	
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery2.jpg" style="width:100%" onclick="currentSlide(2)" alt="NZ view">
+			</div>
+	
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery3.jpg" style="width:100%" onclick="currentSlide(3)" alt="NZ track">
+			</div>
+	
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery4.jpg" style="width:100%" onclick="currentSlide(4)" alt="NZ path">
+			</div>
+	
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery5.jpg" style="width:100%" onclick="currentSlide(5)" alt="NZ forest">
+			</div>
+	
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery6.jpg" style="width:100%" onclick="currentSlide(6)" alt="NZ beautiful">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery7.jpg" style="width:100%" onclick="currentSlide(7)" alt="NZ taupo">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery8.jpg" style="width:100%" onclick="currentSlide(8)" alt="NZ mountain">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery9.jpg" style="width:100%" onclick="currentSlide(9)" alt="NZ 9">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery10.jpg" style="width:100%" onclick="currentSlide(10)" alt="NZ 10">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery11.jpg" style="width:100%" onclick="currentSlide(11)" alt="NZ 11">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Images/gallery12.jpg" style="width:100%" onclick="currentSlide(12)" alt="NZ 12">
+			</div>
+
+		</div>
+	</div>
+		<div class="row">
+			<div class="two-col">
+				<h3>Why you should join us!</h3>
+				<h4>We all know how hard it can be to get out and explore, so we are giving the opportunities to see what it is like to explore our beautiful country. 
+				There are so many places that are amazing to see, this is a way to see them from the comfort of your own home and hopefully come see them for yourselves.</h4>
+			</div>
+			<div class="two-col">
+				<h3>What to look forward to!</h3>
+				<h4>VR technology is becoming very advanced and immersive, eventually our website will become compatible. 
+				We plan to include walks from all over NZ, and soon branching to different countries. Explore the world and grow with us!</h4>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--Footer-->
+
+	<div class=footer-row>
+		<p>Special thanks to our sponsors! <br>
+		Copyright&#169; 2023 Hykes Online. All rights reserved.</p>
+	</div>
+	<!--- Java scrip Slideshow --->
+	<script>
+	let slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("demo");
+		let captionText = document.getElementById("caption");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
+		<!---JavaScript for menu--->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-220px";
+		}
+	</script>
+</body>
+</html>

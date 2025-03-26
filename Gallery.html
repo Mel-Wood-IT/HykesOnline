@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--CSS Links-->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>HYKES ONLINE - Virtual Walks</title>
+    <link rel="stylesheet" href="cssfolder/style.css">
+	<link rel="stylesheet" href="cssfolder/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!---Navigation Menu-->
+    <section class="header-virtual">
+        <nav>
+            <a href="index.html"><img src="Images/HYKE.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!--Close icon for media-->
+                <i class="fa fa-times" style="color: black" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" title="Homepage">HOME</a></li>
+                    <li><a href="About.html" title="About">ABOUT</a></li>
+                    <li><a href="Gallery.html" title="VIRTUAL WALKS">VIRTUAL WALKS</a></li>
+                    <li><a href="Products.html" title="Products">PRODUCTS</a></li>
+                </ul>
+            </div>
+			<!--Menu icon for media-->
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Hykes Online</h1>
+            <h2>Virtual Walks</h2>
+        </div>
+    </section>
+    <!---Main content in here--->
+    <section class="main_content">
+        <h2>Our Various Walks</h2>
+        <p>Videos and information about the walks</p>
+        <div class="row">
+            <div class="two-col-video">
+                <h2>Hakarimata Waterworks Track & Summit Track</h2>
+                <div class="youtube-video">
+                    <iframe class="youtube-link" src="https://www.youtube.com/embed/fEBILDr-3sw"
+                        title="YouTube video player" frameborder="0" scrolling="yes"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <h2>About the Hakarimata</h2>
+                <p>The native forest and birdlife of the Hakarimata Range provides the perfect setting for a day out in
+				one of the Waikato
+				region’s most beautiful landscapes. Located in the town Ngaruawahia, the ranges include 1,850
+				hectares of native forest protected in Hakarimata Scenic
+				Reserve. A walk in the reserve will reward you with babbling streams, picturesque waterfalls and
+				impressive views over
+				the surrounding countryside.</p>
+                <p>The track that most people do and is still a challange for many is the Waterworks track which is in
+				the middle section of the Hakarimata Secenic Reserve. If you choose to go to the summit you will
+				climb 374 metres above sea level, on the Hakarimata Summit Track, which includes the infamous
+				staircase, a popular challange with both locals and vistors alike.</p>
+                <p>The location of the Hakarimata Track entrance is off Brownlee Avenue, off the Ngaruawahia end of
+				Hakarimata Road. The average return time of the Waterworks Track is 1 hour return.</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="two-col-video">
+                <h2>Lake Ngaroto</h2>
+                <div class="youtube-video">
+                    <iframe class="youtube-link" src="https://www.youtube.com/embed/wwNqNQxzV5w"
+                        title="YouTube video player" frameborder="0" scrolling="yes"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <h2>About Lake Ngaroto</h2>
+                <p>Lake Ngaroto, a natural wetland situated in the Waikato region, serves as a prime
+                location for an effortless
+				1.5-hour stroll, enticing visitors as a renowned recreational reserve that remains in high
+				demand throughout
+				the year.</p>
+                <p>With much wildlife and birdlife around the lake it makes for various bird watching opportunities, and
+				the mostly great flat walking track and picnic area makes this a great family walk for those in
+				the Waikato area or for those that are less able.</p>
+                <p>The local sailing club is regularly on the water, while the camouflaged huts around the lake's edge
+				play host to duck hunters during the months of May and June.</p>
+                <p>Lake Ngaroto can be found at Bank Rd off paterangi Rd. please keep note dogs must be kept on a leash.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="two-col-video">
+                <h2>Hamilton City Riverside Walk</h2>
+                <div class="youtube-video">
+                    <iframe class="youtube-link" src="https://www.youtube.com/embed/pBayUVPzRQM"
+                        title="YouTube video player" frameborder="0" scrolling="yes"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <h2>About Hamiltons City Riverside Walk</h2>
+                <p>On the inside of the bustling city of Hamilton a walking and cycling track follows along the banks of
+				the Waikato River through the heart of Hamilton. With ease of access from nearly anywhere in
+				Hamilton from Hamilton Gardens to Wairere Drive you can easily walk any distance of the track.</p>
+                <p>The track is wheelchair friendly with many entry points, car parks and conveniently located toilets.
+                </p>
+                <p>No matter if you decide to walk a small margin of the track or all of it, it will keep you refresh
+				till the next time</p>
+                <p>To gain entry to the track there are entry points along the western and eastern banks of the Waikato
+				River to get on and the length of the track depends on yourself. </p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!--Footer-->
+	<div class=footer-row>
+		<p>Special thanks to our sponsors! <br>
+		Copyright&#169; 2023 Hykes Online. All rights reserved.</p>
+	</div>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-220px";
+		}
+	</script>
+</body>
+
+</html>

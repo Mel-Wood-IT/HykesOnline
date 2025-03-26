@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--CSS Links-->
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>HYKES ONLINE - ABOUT US</title>
+	<link rel="stylesheet" href="cssfolder/style.css">
+	<link rel="stylesheet" href="cssfolder/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!---Navigation Menu-->
+	<section class="header-about">
+		<nav>
+			<a href="index.html"><img src="Images/HYKE.png"></a>
+			<div class="nav-links" id="navLinks">
+				<!--Close icon for media-->
+				<i class="fa fa-times" style="color: black" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html" title="Homepage">HOME</a></li>
+					<li><a href="About.html" title="About">ABOUT</a></li>
+					<li><a href="Gallery.html" title="Gallery">VIRTUAL WALKS</a></li>
+					<li><a href="Products.html" title="Products">PRODUCTS</a></li>
+				</ul>
+			</div>
+			<!--Menu icon for media-->
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Hykes Online</h1>
+			<h2>About us</h2>
+		</div>
+	</section>
+	<!---Main content in here--->
+	<section class="main_content">
+		<h2>Kia ora and welcome to our About Us page!</h2>
+		<p>Your virtual journey awaits you!</p>
+		<div class="row">
+			<div class="two-col">
+				<h2>We are a small group of people that want to help you immerse yourself in the breath-taking beauty of New Zealand's majestic landscapes 
+				from the comfort of your own home. All of our videos are made by us in local areas within the Waikato and we hope to expand all throughout New Zealand.
+				Our outdoors gallery brings you the beauty of this stunning country, allowing you to explore its vast terrain and experience 
+				the thrill of hiking without leaving your own home.</h2>
+			</div>
+			<div class="two-col">
+				<p><img src="Images/hakarimata-steps-1920.jpg" alt="huks"></p>
+				<imgfooter>(Hukarimata track, Ngaruawahia, waikato.)</imgfooter>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="two-col">
+				<p><img src="Images/Pirongia.jpg" alt="Pirongia"></p>
+				<imgfooter>(Pirongia track, Pirongia, waikato.)</imgfooter>
+			</div>
+			<div class="two-col">
+				<h2>We understand that the New Zealand forestry and wildlife is fragile and needs to be protected.
+					That's why we support and promote sustainable tourism practices. Through our partnerships with local conservation organizations,
+					we contribute to the protection and conservation of the very landscapes we showcase in our virtual gallery. By appreciating and 
+					understanding the beauty of New Zealand's backyards, we hope to inspire a sense of responsibility towards its conservation for generations
+					to come.
+				</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="two-col">
+				<h3>Best ways to contact us!</h3>
+				<ul>
+								
+					<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@hykesonline.co.nz&su=subject_here&body=body_here" style="color: black" target="_blank" class="fa fa-google"> - HykesOnlineNZ@gmail.com</a></li>
+		
+					<li><a href="https://www.facebook.com/" style="color: black" target="_blank" class="fa fa-facebook"> - Hykes Online NZ</a></li>
+				
+					<li><a href="https://www.instagram.com/" style="color: black" target="_blank" class="fa fa-instagram"> - @HykesonlineNZ</a></li>
+					
+					<li><a href="https://twitter.com/" style="color: black" target="_blank" class="fa fa-twitter"> - @HykesonlineNZ</a></li>
+					
+					<li><a href="https://www.youtube.com/@HykesOnline" style="color: black" target="_blank" class="fa fa-youtube"> - @HykesonlineNZ</a></li>
+					
+					<li><img src="Images/HYKE logo2.png" alt="logo"></li>
+				</ul>
+			</div>
+			<div class="two-col">
+				<p><img src="Images/marokopa-falls-hero.jpg" alt="marokopafalls"></p>
+				<imgfooter>(Marokopa Falls track, Waitomo, Waikato.)</imgfooter>
+			</div>
+
+		</div>
+
+	</section>
+	
+
+	<!--Footer-->
+	<div class=footer-row>
+		<p>Special thanks to our sponsors! <br>
+		Copyright&#169; 2023 Hykes Online. All rights reserved.</p>
+	</div>
+		<!---JavaScript for menu--->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-220px";
+		}
+	</script>
+</body>
+</html>
